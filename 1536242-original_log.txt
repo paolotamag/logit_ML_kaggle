@@ -1,0 +1,54 @@
+Unfortunately this logistic regression reaches convergence in about 30 minutes,
+doing approximately 10k iteration per cuisine!
+That is how I maximized the loglikelihood function and got the result for kaggle!
+If you don't have enough time to see that yourself, you can select the maximum number of iterations you want to do for estimating probabilities for each cuisine.
+It is advised to choose a number higher than 100. For example if you set 200 it will take around 5 minutes.
+Do you want to set a maximum number of iteration per cuisine? < y / n >
+Analysing data..
+Creating sparse matrix from train..
+Logistic Regression for each cuisine:
+ 
+Computing brazilian cuisine..
+--------------------------------------------
+Computing british cuisine..
+--------------------------------------------
+Computing cajun_creole cuisine..
+--------------------------------------------
+Computing chinese cuisine..
+--------------------------------------------
+Computing filipino cuisine..
+--------------------------------------------
+Computing french cuisine..
+--------------------------------------------
+Computing greek cuisine..
+--------------------------------------------
+Computing indian cuisine..
+--------------------------------------------
+Computing irish cuisine..
+--------------------------------------------
+Computing italian cuisine..
+--------------------------------------------
+Computing jamaican cuisine..
+--------------------------------------------
+Computing japanese cuisine..
+--------------------------------------------
+Computing korean cuisine..
+--------------------------------------------
+Computing mexican cuisine..
+--------------------------------------------
+Computing moroccan cuisine..
+--------------------------------------------
+Computing russian cuisine..
+--------------------------------------------
+Computing southern_us cuisine..
+--------------------------------------------
+Computing spanish cuisine..
+--------------------------------------------
+Computing thai cuisine..
+--------------------------------------------
+Computing vietnamese cuisine..
+--------------------------------------------
+Testing result on train...
+Percentage of success over train: 90.6647558707 %
+Creating sparse matrix from test..
+elapsed time: 30 m, 14 s
